@@ -1,4 +1,8 @@
 # App Consultas
+
+## Miro com a documentação do projeto
+https://miro.com/app/board/o9J_lO9jUSo=/
+
 ## Descrição
 Aplicativo web para controlar a agenda de consulta dos pacientes de uma clínica médica. O sistema terá os módulos de:
 - Cadastro de médicos
