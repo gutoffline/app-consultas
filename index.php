@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APP Consultas</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-    <main>
+    <main class="container">
         <header>
             <h1>APP Consultas</h1>
             <hr>
@@ -24,5 +25,7 @@
             &copy; Todos os direitos reservados
         </footer>
     </main>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/jquery.js"></script>
 </body>
 </html>
