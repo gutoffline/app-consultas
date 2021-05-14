@@ -1,7 +1,7 @@
 <?php include "../includes/cabecalho.php"; ?>
 <hr>
 <p>
-    <a href="#">Novo médico</a>
+    <a href="medicos-formulario-inserir.php" class="btn btn-primary"> <i class="bi-plus-circle"></i> Novo médico</a>
 </p>
 
 <?php
@@ -10,7 +10,7 @@ include "../includes/conexao.php";
 $sqlBusca = "SELECT * FROM tb_medicos;";
 $listaDeMedicos = mysqli_query($conexao , $sqlBusca);
 ?>
-<table class="table">
+<table class="table table-hover">
     <tr>
         <th>ID</th>
         <th>Nome</th>
