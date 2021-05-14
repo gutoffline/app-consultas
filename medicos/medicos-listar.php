@@ -27,7 +27,7 @@ $listaDeMedicos = mysqli_query($conexao , $sqlBusca);
         echo "<td>{$medico['telefone']}</td>";
         echo "<td>{$medico['crm']}</td>"; 
         echo "<td>{$medico['especialidade']}</td>";
-        echo "<td>Alterar | Excluir</td>";
+        echo "<td>Alterar | <a href='medicos-excluir.php?id_medico={$medico['id']}'>Excluir</a></td>"; // precisa mudar essa linha
         echo "</tr>";
     }
     ?>
