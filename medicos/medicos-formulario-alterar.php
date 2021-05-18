@@ -20,7 +20,7 @@ while($medico = mysqli_fetch_assoc($listaDeMedicos)){
 
 <form name="formulario-inserir-medicos" method="post" action="medicos-alterar.php">
 
-    <input name="id_medico" type="hidden" value="<?php echo $id_medico;?>">
+    <input name="id_medico" type="hidden" value="<?php echo $id_medico;?>"> <!-- campo novo -->
     <div class="row">
         <p class="col-6">
             <label class="form-label">Nome:</label><input name="nome" class="form-control" value="<?php echo $nome;?>">
