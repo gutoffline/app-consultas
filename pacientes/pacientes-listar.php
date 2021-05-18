@@ -24,7 +24,10 @@ $listaDePacientes = mysqli_query($conexao , $sqlBusca);
         echo "<td>{$paciente['id']}</td>";
         echo "<td>{$paciente['nome']}</td>";
         echo "<td>{$paciente['telefone']}</td>";
-        echo "<td>{$paciente['data_nascimento']}</td>";
+
+        $dataBrasil = date('d/m/Y', strtotime($paciente['data_nascimento']));
+        echo "<td>{$dataBrasil}</td>";
+
         echo "<td>{$paciente['convenio']}</td>";
         echo "<td><a href='#'>Alterar</a> | ";
         echo "<a href='#'>Excluir</a></td>";
