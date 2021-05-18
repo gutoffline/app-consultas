@@ -16,6 +16,6 @@
         </header>
         <nav>
             <a href="../medicos/medicos-listar.php" class="btn btn-outline-secondary"><img src="../img/medico.png">Cadastro de médicos</a>
-            <a href="#" class="btn btn-outline-secondary"><img src="../img/paciente.png">Cadastro de pacientes</a>
+            <a href="../pacientes/pacientes-listar.php" class="btn btn-outline-secondary"><img src="../img/paciente.png">Cadastro de pacientes</a>
             <a href="#" class="btn btn-outline-secondary"><img src="../img/agenda.png">Agendamento de consultas</a>
         </nav>

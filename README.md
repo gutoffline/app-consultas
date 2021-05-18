@@ -48,7 +48,24 @@ CREATE TABLE `bd_consultorio`.`TB_MEDICOS` (
     `nome` VARCHAR(100) NOT NULL ,  
     `telefone` VARCHAR(20) NOT NULL ,  
     `crm` VARCHAR(50) NOT NULL ,  
-    `especialidade` VARCHAR(50) NOT NULL ,    PRIMARY KEY  (`id`)
+    `especialidade` VARCHAR(50) NOT NULL ,    
+    PRIMARY KEY  (`id`)
 ) 
 ENGINE = InnoDB;
+```
+
+### Criação da tabela de pacientes
+
+```sql
+CREATE TABLE `bd_consultorio`.`tb_pacientes` ( 
+    `id` INT NOT NULL AUTO_INCREMENT ,  
+    `nome` VARCHAR(100) NOT NULL ,  
+    `telefone` VARCHAR(20) NOT NULL ,  
+    `data_nascimento` DATE NOT NULL ,  
+    `convenio` VARCHAR(3) NOT NULL ,  
+    `diagnostico` TEXT NOT NULL ,   
+     PRIMARY KEY  (`id`)
+) 
+ENGINE = InnoDB;
+
 ```
