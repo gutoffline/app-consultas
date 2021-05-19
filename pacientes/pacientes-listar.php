@@ -33,7 +33,7 @@ $listaDePacientes = mysqli_query($conexao , $sqlBusca);
 
         echo "<td>{$paciente['convenio']}</td>";
         echo "<td><a href='#'>Alterar</a> | ";
-        echo "<a href='#'>Excluir</a></td>";
+        echo "<a href='pacientes-excluir.php?id={$paciente['id']}'>Excluir</a></td>";
         echo "</tr>";
     }
     ?>
