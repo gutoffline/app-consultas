@@ -7,6 +7,9 @@ $sqlBusca = "SELECT * FROM tb_pacientes";
 
 $listaDePacientes = mysqli_query($conexao , $sqlBusca);
 ?>
+<p>
+    <a href="pacientes-formulario-inserir.php">Novo paciente</a>
+</p>
 
 <table class="table table-hover">
 
