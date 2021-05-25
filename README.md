@@ -109,3 +109,9 @@ ALTER TABLE `tb_agenda`
 COMMIT;
 
 ```
+
+
+### Criação da tabela de usuários
+```sql
+CREATE TABLE `bd_consultorio`.`tb_usuarios` ( `id` INT NOT NULL AUTO_INCREMENT ,  `usuario` VARCHAR(30) NOT NULL ,  `senha` VARCHAR(8) NOT NULL ,    PRIMARY KEY  (`id`)) ENGINE = InnoDB;
+```

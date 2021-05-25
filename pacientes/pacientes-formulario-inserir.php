@@ -1,7 +1,7 @@
 <?php include "../includes/cabecalho.php"; ?>
 
 
-<form name="formulario-pacientes" method="post" action="pacientes-inserir.php">
+<form name="formulario-pacientes" method="post" action="pacientes-inserir.php" enctype="multipart/form-data">
 <p>
     <label>Nome:</label>
     <input name="nome">
@@ -21,6 +21,10 @@
 <p>
     <label>Diagnóstico:</label>
     <textarea name="diagnostico"></textarea>
+</p>
+<p>
+    <label>Foto:</label>
+    <input type="file" name="arquivo">
 </p>
 <p>
     <button type="submit">Salvar</button>

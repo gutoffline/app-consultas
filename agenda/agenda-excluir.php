@@ -9,8 +9,7 @@ $sqlExcluir = "DELETE FROM tb_agenda WHERE id = {$id_agenda}";
 $resultado = mysqli_query($conexao , $sqlExcluir);
 
 if($resultado){
-    echo "Agenda excluida.<br>";
-    echo "<a href='agenda-listar.php'>Voltar</a>";
+    header('Location:agenda-listar.php?mensagem=excluido');
 }else{
     echo "Algo deu errado";
 }
